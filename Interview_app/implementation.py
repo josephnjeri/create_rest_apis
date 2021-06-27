@@ -1,12 +1,12 @@
 from meeting import Meeting
-name = "Everline  Ogola"
-profession = "Surveryor"
-company = "JOOS engineering company"
+name = "Dr. Joseph Njeri"
+Interviewer = "Mr Steven Njoroge"
+profession = "Data Science"
+company = "EDI GmbH"
 city = "Karlsruhe"
 country = "Deutschland"
 
-
-obj = Meeting(name, profession, company, city, country)
+obj = Meeting(name, Interviewer, profession, company, city, country)
 
 print(obj.ask_name())
 print(obj.say_name())
